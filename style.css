@@ -6,6 +6,8 @@ caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
 a img{border:none}
 body{background:#acc5ca url("/images/bg.png");color:#522;font:14px/1.5 Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;margin:0 auto 40px;width:900px}
 a{color:#fff;text-decoration:none}
+strong{font-weight:bold}
+em{font-style:italic}
 header{background:url("/images/header-bg.png");padding:40px 0;text-align:center;}
 header h1 a{color:#3b4345;font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:64px;font-weight:bold;line-height:1;text-shadow:0 1px 1px rgba(255,255,255,0.6)}
 header nav ul{letter-spacing:1px;overflow:hidden;text-transform:uppercase;text-shadow:0 1px rgba(0,0,0,0.2);}
