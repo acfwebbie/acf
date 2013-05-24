@@ -1,59 +1,184 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
-body{line-height:1;color:#000;background:#fff}
-ol,ul{list-style:none}
-table{border-collapse:separate;border-spacing:0;vertical-align:middle}
-caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-weight:inherit;
+    font-style:inherit;
+    font-family:inherit;
+    font-size:100%;
+    vertical-align:baseline}
+body{
+    line-height:1;
+    color:#000;
+    background:#fff}
+ol,ul{
+    list-style:none}
+table{
+    border-collapse:separate;
+    border-spacing:0;
+    vertical-align:middle}
+caption,th,td{
+    text-align:left;
+    font-weight:normal;
+    vertical-align:middle}
 a img{border:none}
-body{background:#acc5ca url("/images/bg.png");color:#522;font:14px/1.5 Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;margin:0 auto 40px;width:900px}
-a{color:#fff;text-decoration:none}
+body{
+    background:#acc5ca url("/images/bg.png");
+    color:#522;
+    font:14px/1.5 Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    margin:0 auto 40px;
+    width:900px}
+a{
+    color:#fff;
+    text-decoration:none}
 strong{font-weight:bold}
 em{font-style:italic}
-header{background:url("/images/header-bg.png");padding:40px 0;text-align:center;}
-header h1 a{color:#3b4345;font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:64px;font-weight:bold;line-height:1;text-shadow:0 1px 1px rgba(255,255,255,0.6)}
-header nav ul{letter-spacing:1px;overflow:hidden;text-transform:uppercase;text-shadow:0 1px rgba(0,0,0,0.2);}
-header nav ul li{display:inline;margin-right:40px;}
-header nav ul li:last-child{margin-right:0}
-#content{background:#fffff0 url("/images/bg-light.png");-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);-moz-box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);padding:40px;}
-#content .section,#content .post{margin-bottom:30px;overflow:hidden;}
+header{
+    background:url("/images/header-bg.png");
+    padding:40px 0;
+    text-align:center;}
+header h1 a{
+    color:#3b4345;
+    font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size:64px;
+    font-weight:bold;
+    line-height:1;
+    text-shadow:0 1px 1px rgba(255,255,255,0.6)}
+header nav ul{
+    letter-spacing:1px;
+    overflow:hidden;
+    text-transform:uppercase;
+    text-shadow:0 1px rgba(0,0,0,0.2);}
+header nav ul li{
+    display:inline;
+    margin-right:40px;}
+header nav ul li:last-child{
+    margin-right:0}
+#content{
+    background:#fffff0 url("/images/bg-light.png");-webkit-border-radius:10px;-moz-border-radius:10px;
+    border-radius:10px;-webkit-box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);-moz-box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);
+    box-shadow:inset 0 2px 3px rgba(255,255,255,0.6),0 1px 3px rgba(0,0,0,0.4);
+    padding:40px;}
+#content .section,#content .post{
+    margin-bottom:30px;
+    overflow:hidden;}
 #content .section:last-child,#content .post:last-child{margin-bottom:0}
 #content .section h3,#content .post h3{font-weight:bold}
-#content .section ul.bulleted,#content .post ul.bulleted{line-height:1.8;list-style:square;margin-bottom:10px;padding-left:40px;}
+#content .section ul.bulleted,#content .post ul.bulleted{
+    line-height:1.8;
+    list-style:square;
+    margin-bottom:10px;
+    padding-left:40px;}
 #content .section ul.bulleted:last-child,#content .post ul.bulleted:last-child{margin-bottom:0}
-#content .section ul.bulleted li,#content .post ul.bulleted li{padding-left:5px}
-#content .date{display:block;margin-top:10px}
+#content .section ul.bulleted li,#content .post ul.bulleted li{
+    padding-left:5px}
+#content .date{
+    display:block;
+    margin-top:10px}
 #content a{color:#c85850}
-#content h2{color:#c85850;font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:26px;line-height:1.2;margin-bottom:10px}
+#content h2{
+    color:#c85850;
+    font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size:26px;
+    line-height:1.2;
+    margin-bottom:10px}
 #content p{margin-bottom:10px;}
 #content p:last-child{margin-bottom:0}
 #content #intro{overflow:hidden;}
-#content #intro img{float:left;width:400px}
-#content #intro #intro-text{float:left;margin-left:20px;width:400px}
+#content #intro img{
+    float:left;
+    width:400px}
+#content #intro #intro-text{
+    float:left;
+    margin-left:20px;
+    width:400px}
 #content #ministries{margin-top:40px;}
-#content #ministries ul{margin-left:-20px;overflow:hidden;}
-#content #ministries ul li{float:left;margin-left:20px;width:260px;}
-#content #ministries ul li .ministry-header{background:url("/images/icons.png") no-repeat;height:60px;padding-left:70px}
+#content #ministries ul{
+    margin-left:-20px;
+    overflow:hidden;}
+#content #ministries ul li{
+    float:left;
+    margin-left:20px;
+    width:260px;}
+#content #ministries ul li .ministry-header{
+    background:url("/images/icons.png") no-repeat;
+    height:60px;
+    padding-left:70px}
+#content #ministries ul#summer {
+    background:rgba(59,67,69,0.5);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    color:#522;
+    display:block;
+    padding:5px 8px;
+    text-shadow:0 1px rgba(0,0,0,0.1);
+    margin-left: 0px;}
+#content #ministries ul li#ministry-summer {
+    width: 95%;
+    margin: 20px;}
+#content #ministries ul li#ministry-summer .ministry-header{
+    background: url("/images/summer-grey.png") no-repeat;}    
 #content #ministries ul li#ministry-lg .ministry-header{background-position:0 0}
 #content #ministries ul li#ministry-cg .ministry-header{background-position:0 -60px}
 #content #ministries ul li#ministry-church .ministry-header{background-position:0 -120px}
-#content #ministries ul h3.ministry-name{color:#c85850;font-size:18px;font-weight:bold;padding-top:5px}
-#content #ministries ul a.ministry-more{background:#c85850;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:#fffff0;font-size:10px;letter-spacing:1px;line-height:20px;padding:5px 8px;text-transform:uppercase}
+#content #ministries ul h3.ministry-name{
+    color:#c85850;
+    font-size:18px;
+    font-weight:bold;
+    padding-top:5px}
+#content #ministries ul a.ministry-more{
+    background:#c85850;-webkit-border-radius:5px;-moz-border-radius:5px;
+    border-radius:5px;
+    color:#fffff0;
+    font-size:10px;
+    letter-spacing:1px;
+    line-height:20px;
+    padding:5px 8px;
+    text-transform:uppercase}
 #content #ministries ul p{margin-top:10px}
-#content #cell-groups-intro{float:left;margin-left:20px;width:740px}
-#content #cell-groups{margin-left:-20px;overflow:hidden;}
+#content #cell-groups-intro{
+    float:left;
+    margin-left:20px;
+    width:740px}
+#content #cell-groups{
+    margin-left:-20px;
+    overflow:hidden;}
 #content #cell-groups .section{float:left;margin-left:20px;width:400px}
 #content #cell-groups ul li{margin-bottom:20px;overflow:hidden;}
 #content #cell-groups ul li:last-child{margin-bottom:0}
-#content #cell-groups ul li img.cell-photo{float:left;width:120px;height:120px}
+#content #cell-groups ul li img.cell-photo{
+    float:left;
+    width:120px;
+    height:120px;}
 #content #cell-groups ul li .cell-details{float:left;margin-left:20px;width:260px;}
 #content #cell-groups ul li .cell-details h3{color:#c85850;font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:18px;line-height:1.2}
 #content #cell-groups ul li .cell-details strong{font-weight:bold;margin-right:10px}
 #content #cell-groups ul li .cell-details p{margin-bottom:0}
-a#blog-intro{background:rgba(59,67,69,0.5);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);color:#fffff0;display:block;margin-bottom:40px;padding:5px 8px;text-shadow:0 1px rgba(0,0,0,0.1);}
+a#blog-intro{
+    background:rgba(59,67,69,0.5);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    -moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,0.1),0 1px rgba(255,255,255,0.8);
+    color:#fffff0;
+    display:block;
+    margin-bottom:40px;
+    padding:5px 8px;
+    text-shadow:0 1px rgba(0,0,0,0.1);}
 a#blog-intro:hover{background:#c85850}
 .ministry-icon{background:url("/images/icons.png") no-repeat;float:left;width:60px;height:60px;}
 .ministry-icon#ministry-lg{background-position:0 0}
 .ministry-icon#ministry-cg{background-position:0 -60px}
 .ministry-icon#ministry-church{background-position:0 -120px}
+.ministry-icon#ministry-summer{
+    background: url("/images/summericon.png") no-repeat;}    
 .ministry-info{float:left;margin-left:10px;width:190px;}
 .ministry-info h3.ministry-name{color:#c85850;font-size:18px;font-weight:bold}
 .ministry-text{float:left;margin-left:20px;width:540px}
