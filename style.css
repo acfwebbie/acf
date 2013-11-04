@@ -84,6 +84,7 @@ header nav ul li:last-child{
     line-height:1.2;
     margin-bottom:10px}
 #content p{margin-bottom:10px;}
+#content p.verse{margin-left: 50px; width:80%}
 #content p:last-child{margin-bottom:0}
 #content #intro{overflow:hidden;}
 #content #intro img{
