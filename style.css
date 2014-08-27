@@ -150,6 +150,7 @@ header nav ul li:last-child{
     margin-left:-20px;
     overflow:hidden;}
 #content #cell-groups .section{float:left;margin-left:20px;width:400px}
+#content #cell-groups .test{float:left;margin-left:20px;width:400px}
 #content #cell-groups ul li{margin-bottom:20px;overflow:hidden;}
 #content #cell-groups ul li:last-child{margin-bottom:0}
 #content #cell-groups ul li img.cell-photo{
