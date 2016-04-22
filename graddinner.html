@@ -6,6 +6,12 @@ title: Getting Involved
 <div class="section">
   <h2>Grad Dinner</h2>
 
-    <iframe src="https://docs.google.com/forms/d/1LCusRJBjgBYO_I90TrRfw4DODwQ5AYdLVhdyT3NRuZQ/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/1LCusRJBjgBYO_I90TrRfw4DODwQ5AYdLVhdyT3NRuZQ/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0" onload="resizeIframe(this)">Loading...</iframe>
 
 </div>
+
+<script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
