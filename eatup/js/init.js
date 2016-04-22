@@ -1,10 +1,10 @@
-var EARLIEST_DATE = "today";
+var EARLIEST_DATE = "3 days ago";
 var NUM_DAYS_SHOWN = 7;
 var EARLIEST_TIME = 8.0;
 var LATEST_TIME = 24.0;
 var TIME_INCREMENT = 0.5;
 var DATABASE_URI = "https://acfeatup.firebaseio.com/eatups";
-var CALENDAR_TABLE_ID = "calendarTable";
+var CALENDAR_TABLE_ID = "eatupVisual";
 
 (function($){
   $(function(){
@@ -15,7 +15,7 @@ var CALENDAR_TABLE_ID = "calendarTable";
 
 function runEatups() {
   var db = new eatupDB(DATABASE_URI);
-  var table = new eatupTable(CALENDAR_TABLE_ID,
+  var visual = new eatupVisual(CALENDAR_TABLE_ID,
                              EARLIEST_DATE,
                              NUM_DAYS_SHOWN,
                              EARLIEST_TIME,
@@ -33,7 +33,7 @@ function runEatups() {
       (entry.end.compareTo(Date.parse(EARLIEST_DATE).addDays(7)) != 1)
     );
   }, function(data) {
-    table.update(data);;
+    visual.create(data);;
   });
 
   db.trackUpdates(function(entry) {
@@ -42,6 +42,6 @@ function runEatups() {
       (entry.end.compareTo(Date.parse(EARLIEST_DATE).addDays(7)) != 1)
     );
   }, function(data) {
-    table.create(data);;
+    // visual.update(data);;
   });
 }

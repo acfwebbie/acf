@@ -12,3 +12,21 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+#eatupVisual #eatupTable tbody tr td {
+  padding: 0px;
+  height: 84px;
+  width: 84px;
+}
+
+#eatupVisual #eatupTable tbody tr td a.calCell {
+  padding: 0px;
+  height: 84px;
+  width: 84px;
+  display: table;
+}
+
+#eatupVisual #eatupTable tbody tr td a.calCell div {
+  display: table-cell;
+  vertical-align: middle;
+}
