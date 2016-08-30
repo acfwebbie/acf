@@ -84,7 +84,7 @@ header nav ul li:last-child{
     line-height:1.2;
     margin-bottom:10px}
 #content p{margin-bottom:10px;}
-#content p.verse{margin-left: 50px; width:80%}
+#content p.verse{margin-left: 50px; width:80%; font-style: italic;}
 #content p:last-child{margin-bottom:0}
 #content #intro{overflow:hidden;}
 #content #intro img{
@@ -185,25 +185,30 @@ a#blog-intro:hover{background:#c85850}
 .ministry-text{float:left;margin-left:20px;width:540px}
 .ministry-photos{margin:0 0 -20px -20px;overflow:hidden;}
 .ministry-photos img{float:left;margin:0 0 20px 20px}
+div.tab-section{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fbfbf7;}
 div.tab-section ul.tabs{
+    border-radius: 10px 10px 0px 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
     background-color: #f1f1f1;}
 div.tab-section ul.tabs li{float: left;}
 div.tab-section ul.tabs li a{
+    color: #c85850;
+    font-size: 14px;
+    font-weight: bold;
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;}
-div.tab-section ul.tabs li a:hover {background-color: #ddd;}
-div.tab-section ul.tabs li a:focus, .active {background-color: #ccc;}
-div.tab-section div.tab-content {
+    transition: 0.3s;}
+div.tab-section ul.tabs li a:hover{background-color: #ddd;}
+div.tab-section ul.tabs li a:focus, .active{background-color: #ccc;}
+div.tab-section div.tab-content{
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;}
