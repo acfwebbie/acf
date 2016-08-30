@@ -185,3 +185,26 @@ a#blog-intro:hover{background:#c85850}
 .ministry-text{float:left;margin-left:20px;width:540px}
 .ministry-photos{margin:0 0 -20px -20px;overflow:hidden;}
 .ministry-photos img{float:left;margin:0 0 20px 20px}
+div.tab-section ul.tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;}
+div.tab-section ul.tabs li{float: left;}
+div.tab-section ul.tabs li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;}
+div.tab-section ul.tabs li a:hover {background-color: #ddd;}
+div.tab-section ul.tabs li a:focus, .active {background-color: #ccc;}
+div.tab-section div.tab-content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;}
