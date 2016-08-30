@@ -198,15 +198,14 @@ div.tab-section ul.tabs{
 div.tab-section ul.tabs li{float: left;}
 div.tab-section ul.tabs li a{
     color: #c85850;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;}
+    transition: 0.3s;}
 div.tab-section ul.tabs li a:hover{background-color: #ddd;}
 div.tab-section ul.tabs li a:focus, .active{background-color: #ccc;}
 div.tab-section div.tab-content{
