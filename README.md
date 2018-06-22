@@ -1,4 +1,4 @@
-####To preview local changes you make before pushing:
+#### To preview local changes you make before pushing:
 You can't just open the `.html` file in the browser because `_layouts/default.html` is the actual page being loaded.
 
 1. In `_layouts/default.html`, replace `{{ content }}` with the entire file content of the `.html` file you're making edits to (ex. `cellgroups.html`)
