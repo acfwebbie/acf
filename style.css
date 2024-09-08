@@ -185,7 +185,7 @@ a#blog-intro:hover{background:#c85850}
 .ministry-info h3.ministry-name{color:#c85850;font-size:18px;font-weight:bold}
 .ministry-text{float:left;margin-left:20px;width:540px}
 .ministry-photos{margin:0 0 -20px -20px;overflow:hidden;}
-.ministry-photos img{float:left;margin:0 0 20px 20px}
+.ministry-photos img{float:left;margin:20px 0 20px 20px;}
 div.tab-section{
     border-radius: 10px;
     border: 1px solid #ddd;
