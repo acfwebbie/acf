@@ -156,7 +156,7 @@ header nav ul li:last-child{
     float:left;
     width:120px;
     height:120px;
-    object-fit: contain;}
+    object-fit: cover;}
 #content #cell-groups ul li .cell-details{float:left;margin-left:20px;width:260px;}
 #content #cell-groups ul li .cell-details h3{color:#c85850;font-family:Kreon,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:18px;line-height:1.2}
 #content #cell-groups ul li .cell-details strong{font-weight:bold;margin-right:10px}
